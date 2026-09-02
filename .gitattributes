@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+*.tsv text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.obo text eol=lf
+
+# Binary artifacts: never normalize.
+*.pdf binary
+*.pdb binary
+*.png binary
+*.gz binary

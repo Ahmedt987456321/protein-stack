@@ -1,0 +1,9 @@
+{
+  "tau": 0.35,
+  "alpha": 0.7,
+  "beta": 0.0,
+  "gamma": 1.0,
+  "tau_d": 0.8,
+  "delta": 0.0,
+  "val_macro_fmax": 0.6006
+}

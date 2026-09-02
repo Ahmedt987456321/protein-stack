@@ -1,0 +1,30 @@
+{
+  "generated": "2026-08-27",
+  "go_obo": "https://purl.obolibrary.org/obo/go/go-basic.obo",
+  "horizons": {
+    "2019": {
+      "past_releases": [
+        "goa_fly.gaf.93.gz",
+        "goa_human.gaf.192.gz",
+        "goa_yeast.gaf.93.gz"
+      ],
+      "cohort_size": 747
+    },
+    "2021": {
+      "past_releases": [
+        "goa_fly.gaf.107.gz",
+        "goa_human.gaf.206.gz",
+        "goa_yeast.gaf.107.gz"
+      ],
+      "cohort_size": 388
+    },
+    "2023": {
+      "past_releases": [
+        "goa_fly.gaf.119.gz",
+        "goa_human.gaf.218.gz",
+        "goa_yeast.gaf.119.gz"
+      ],
+      "cohort_size": 281
+    }
+  }
+}

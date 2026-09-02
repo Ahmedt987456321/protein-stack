@@ -1,0 +1,79 @@
+# Protein Intelligence Stack - v0.1 twilight-zone experiment configuration.
+# Every script reads this file; change values here, not in code.
+
+seed: 17
+
+dirs:
+  data: data
+  results: results
+
+# GOA species GAF files (experimental GO annotations live here).
+# taxid = NCBI taxon id used by STRING.
+species:
+  - name: human
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human.gaf.gz"
+    taxid: 9606
+  - name: yeast
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/YEAST/goa_yeast.gaf.gz"
+    taxid: 4932
+  - name: fly
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/FLY/goa_fly.gaf.gz"
+    taxid: 7227
+  - name: mouse
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/MOUSE/goa_mouse.gaf.gz"
+    taxid: 10090
+  - name: arabidopsis
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/ARABIDOPSIS/goa_arabidopsis.gaf.gz"
+    taxid: 3702
+  - name: ecoli
+    gaf_url: "https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/18.E_coli_MG1655.goa"
+    taxid: 511145
+
+go_obo_url: "https://purl.obolibrary.org/obo/go/go-basic.obo"
+
+# GO evidence codes accepted as ground truth (CAFA-style experimental set:
+# classic experimental + high-throughput + author/curator statements).
+evidence_codes: [EXP, IDA, IPI, IMP, IGI, IEP, HTP, HDA, HMP, HGI, HEP, TAS, IC]
+
+sampling:
+  oversample: 200000     # scale-up: effectively "all" annotated proteins
+  max_proteins: 120000   # (no downsampling until this cap)
+  min_len: 50
+  max_len: 1400          # keep single-fragment AlphaFold models
+
+structures:
+  min_plddt: 70.0        # mean pLDDT quality gate
+  workers: 8             # parallel downloads
+
+dark:                    # v0.3 dark-proteome sweep (scaled up)
+  oversample: 12000      # sampled IEA-only proteins before filters
+  max_proteins: 8000
+  min_score: 0.3         # hypothesis feed floor
+  top_per_branch: 5
+
+string:                  # v0.4 interaction layer
+  version: "12.0"
+  score_min: 700         # STRING combined score floor (high confidence)
+
+timesplit:               # v1.0 experiment loop (time-machine study)
+  target_date: "2023-07-12"   # nearest archived GOA release per species is used
+  min_confidence: 0.3         # hypothesis floor for outcome writeback
+  top_per_branch: 3
+
+split:
+  test_frac: 0.2
+  # test proteins are binned by max sequence identity to the training set;
+  # bin edges as fractions - produces bins lt30 / 30to50 / 50to80 / ge80
+  bin_edges: [0.3, 0.5, 0.8]
+
+search:
+  evalue: 0.001          # neighbour threshold for function transfer
+  max_seqs: 300
+
+tools:
+  mmseqs: C:\dev\protein-stack\tools\mmseqs\bin\mmseqs.exe   # native win64 build
+  mmseqs_wsl: false
+  foldseek: foldseek     # no native Windows build; runs inside WSL
+  foldseek_wsl: true
+  use_wsl: false         # default for tools without a per-tool *_wsl flag
+  threads: 8

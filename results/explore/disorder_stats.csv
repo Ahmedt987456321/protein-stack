@@ -1,0 +1,9 @@
+metric,group,n,median
+pre-gate mean pLDDT,annotated,12811,79.35
+pre-gate mean pLDDT,dark,3908,77.96
+kept fraction pLDDT<50,annotated,9162,0.0841
+kept fraction pLDDT<50,dark,2564,0.0585
+pre-gate median diff (ann-dark),,,1.39
+pre-gate permutation p,,,0.00019998000199980003
+kept d50 median diff (ann-dark),,,0.0255
+kept d50 permutation p,,,9.999000099990002e-05

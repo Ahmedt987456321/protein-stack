@@ -1,0 +1,13 @@
+branch,bin,n,fmax
+molecular_function,lt30,136,0.5716
+molecular_function,30to50,773,0.4628
+molecular_function,50to80,527,0.4633
+molecular_function,ge80,78,0.4500
+biological_process,lt30,142,0.2729
+biological_process,30to50,755,0.2804
+biological_process,50to80,479,0.2853
+biological_process,ge80,67,0.3021
+cellular_component,lt30,161,0.5850
+cellular_component,30to50,803,0.5533
+cellular_component,50to80,541,0.5334
+cellular_component,ge80,85,0.5297

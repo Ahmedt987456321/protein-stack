@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its predictions, please cite it as below."
+title: "protein-stack: function prediction beyond the twilight zone with gated AlphaFold structure fusion"
+authors:
+  - family-names: Thotlapalli
+    given-names: Ahmed
+    affiliation: "King's College London"
+    orcid: "https://orcid.org/0009-0001-8119-3312"
+version: "1.0"
+date-released: "2026-08-25"
+license: MIT
+keywords:
+  - protein function prediction
+  - AlphaFold
+  - Foldseek
+  - knowledge graph
+  - Gene Ontology
+  - dark proteome
+abstract: >
+  A reproducible pipeline that fuses sequence homology, AlphaFold structural
+  similarity, InterPro domains, and STRING interactions to predict protein
+  function under a strict evidence-provenance discipline. Structural transfer
+  measurably improves prediction below 30% sequence identity; an
+  identity-gated fusion beats every single evidence stream; and a time-split
+  validation against archived GOA releases shows 40.7% top-1
+  molecular-function precision (permutation p = 0.001) with monotone
+  confidence calibration, including genuine falsifications via experimental
+  NOT-qualifier annotations.

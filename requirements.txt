@@ -1,0 +1,17 @@
+# Python dependencies for protein-stack, pinned to the versions the published
+# results were produced with (Python 3.9). Install: pip install -r requirements.txt
+#
+# The heavy external tools (Foldseek, MMseqs2, fpocket, localColabFold /
+# AlphaFold2-Multimer) are NOT pip packages; see README "Setup" for those.
+
+# Data fetching and config
+requests>=2.28,<3
+PyYAML>=6.0,<7
+tqdm>=4.64,<5
+
+# Numerics and statistics. numpy: Kabsch superposition in the dynamics layer
+# (scripts/44). scipy: Fisher exact enrichment test in the flagship (scripts/41)
+# and elsewhere. Pinned to the exact versions used for the reported numbers so
+# results reproduce bit-for-bit.
+numpy==1.21.5
+scipy==1.9.1

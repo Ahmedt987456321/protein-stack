@@ -1,0 +1,11 @@
+data/
+results/*
+!results/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+tools/
+*.log
+
+# The manuscript is published through a journal, not hosted here.
+paper/

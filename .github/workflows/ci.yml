@@ -1,0 +1,35 @@
+name: ci
+
+# Lightweight guard on the load-bearing, deterministic code. The full pipeline
+# needs multi-GB downloads and a GPU (localColabFold / AlphaFold2-Multimer) and
+# cannot run in CI; what runs here is the pure-Python + numpy/scipy core that
+# produces the paper's statistics, plus an import/compile check of every script.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install pinned dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Core unit tests (GO propagation, Fmax, Fisher enrichment, Kabsch RMSF)
+        run: python tests/test_core.py
+
+      - name: Compile-check every script and module
+        run: |
+          python -m py_compile pis/*.py
+          python -m py_compile scripts/*.py

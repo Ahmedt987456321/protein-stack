@@ -1,0 +1,488 @@
+accession	symbol	ensembl	druggability	disease_assoc_count	top_disease_score	top_disease	top_MF_term	term_name	tier
+A6NNN8	SLC38A8	ENSG00000166558	0.55	1283	0.814	Foveal hypoplasia-optic nerve decussation defect-anterior segment dysgenesis syndrome	GO:0015171	amino acid transmembrane transporter activity	HIGH
+Q8TDI8	TMC1	ENSG00000165091	1.00	732	0.746	autosomal recessive nonsyndromic hearing loss 7	-	-	-
+Q8N806	UBR7	ENSG00000012963	0.66	529	0.678	Li-Campeau syndrome	GO:0061630	ubiquitin protein ligase activity	HIGH
+F5H094	SLCO1B3	ENSG00000111700	0.87	621	0.665	Rotor syndrome	GO:0005515	protein binding	HIGH
+Q8N6M6	AOPEP	ENSG00000148120	0.97	457	0.653	dystonia 31	GO:0008270	zinc ion binding	HIGH
+Q96MI9	AGBL1	ENSG00000273540	0.77	128	0.615	Fuchs endothelial corneal dystrophy	GO:0004181	metallocarboxypeptidase activity	HIGH
+Q8IZS8	CACNA2D3	ENSG00000157445	0.71	352	0.612	epilepsy	GO:0005245	voltage-gated calcium channel activity	MEDIUM
+Q5T6L9	ERMARD	ENSG00000130023	0.68	32	0.605	nodular neuronal heterotopia	-	-	-
+Q9H091	ZMYND15	ENSG00000141497	0.87	38	0.599	spermatogenic failure 14	GO:0042826	histone deacetylase binding	HIGH
+Q5T7M9	DIPK1A	ENSG00000154511	0.91	82	0.572	Blackfan-Diamond anemia	-	-	-
+Q8N819	PPM1N	ENSG00000213889	0.68	40	0.531	Spastic paraplegia	GO:0000287	magnesium ion binding	HIGH
+Q0VDG4	SCRN3	ENSG00000144306	0.63	417	0.526	neurodegenerative disease	GO:0016805	dipeptidase activity	HIGH
+Q9NVA4	TMEM184C	ENSG00000164168	0.90	60	0.522	Neurodevelopmental abnormality	-	-	-
+Q9Y5H3	PCDHGA10	ENSG00000253846	0.84	29	0.519	neurodevelopmental disorder with poor growth and skeletal anomalies	GO:0005509	calcium ion binding	HIGH
+O60330	PCDHGA12	ENSG00000253159	0.77	53	0.519	neurodevelopmental disorder with poor growth and skeletal anomalies	GO:0005509	calcium ion binding	HIGH
+Q9Y5G8	PCDHGA5	ENSG00000253485	0.74	20	0.519	neurodevelopmental disorder with poor growth and skeletal anomalies	GO:0005509	calcium ion binding	HIGH
+Q9Y5H2	PCDHGA11	ENSG00000253873	0.67	23	0.519	neurodevelopmental disorder with poor growth and skeletal anomalies	GO:0005509	calcium ion binding	HIGH
+Q9Y5G6	PCDHGA7	ENSG00000253537	0.65	19	0.519	neurodevelopmental disorder with poor growth and skeletal anomalies	GO:0005509	calcium ion binding	HIGH
+Q8IV42	PSTK	ENSG00000179988	0.56	28	0.503	neurodegenerative disease	GO:0005488	binding	HIGH
+A6NFU8	PGPEP1L	ENSG00000183571	0.67	22	0.496	Abnormality of the skeletal system	-	-	-
+Q8TE57	ADAMTS16	ENSG00000145536	0.85	227	0.488	Inguinal hernia	GO:0005515	protein binding	HIGH
+Q8NG06	TRIM58	ENSG00000162722	0.87	111	0.481	venous thromboembolism	GO:0008270	zinc ion binding	HIGH
+Q5TIA1	MEI1	ENSG00000167077	0.61	169	0.468	hydatidiform mole	GO:0005488	binding	HIGH
+B4DZS4	TCP11X1	ENSG00000268235	0.91	1	0.462	neurodegenerative disease	GO:0005515	protein binding	LOW
+Q8IZP7	HS6ST3	ENSG00000185352	0.78	78	0.460	Abnormality of the skeletal system	GO:0008146	sulfotransferase activity	HIGH
+C9JQI7	TMEM232	ENSG00000186952	0.71	196	0.457	asthma	-	-	-
+Q96ID5	IGSF21	ENSG00000117154	0.87	56	0.453	smoking initiation	GO:0005515	protein binding	HIGH
+A6NKX4	SLC22A31	ENSG00000259803	0.79	45	0.453	COVID-19	GO:0022857	transmembrane transporter activity	HIGH
+Q6ZVX9	PAQR9	ENSG00000188582	1.00	51	0.450	neurodegenerative disease	GO:0005515	protein binding	HIGH
+O95025	SEMA3D	ENSG00000153993	0.63	338	0.434	alcohol drinking	GO:0030215	semaphorin receptor binding	HIGH
+Q8N1S5	SLC39A11	ENSG00000133195	0.92	131	0.429	type 2 diabetes mellitus	GO:0046873	metal ion transmembrane transporter activity	HIGH
+Q658N2	WSCD1	ENSG00000179314	0.62	67	0.425	neurodegenerative disease	GO:0008146	sulfotransferase activity	HIGH
+Q9HD45	TM9SF3	ENSG00000077147	0.94	76	0.420	neurodegenerative disease	GO:0005515	protein binding	LOW
+Q32ZL2	PLPPR5	ENSG00000117598	0.54	491	0.409	smoking initiation	GO:0005515	protein binding	HIGH
+Q5T5M9	CCNJ	ENSG00000107443	0.77	40	0.408	Abnormality of the skeletal system	GO:0005515	protein binding	HIGH
+A1L157	TSPAN11	ENSG00000110900	0.97	60	0.406	open-angle glaucoma	GO:0005515	protein binding	HIGH
+Q86VH4	LRRTM4	ENSG00000176204	0.74	130	0.405	smoking initiation	GO:0005515	protein binding	HIGH
+Q96NI8	ZNF570	ENSG00000171827	0.96	154	0.396	neurodegenerative disease	GO:0005488	binding	HIGH
+Q9UKQ9	KLK9	ENSG00000213022	0.67	35	0.389	neurodegenerative disease	GO:0004252	serine-type endopeptidase activity	HIGH
+Q8NA75	DCAF4L2	ENSG00000176566	0.79	62	0.386	glaucoma	GO:0005515	protein binding	HIGH
+Q8NH49	OR4X1	ENSG00000176567	0.89	23	0.383	thrombophilia	GO:0004930	G protein-coupled receptor activity	HIGH
+O75493	CA11	ENSG00000063180	0.56	65	0.377	neurodegenerative disease	GO:0004089	carbonate dehydratase activity	HIGH
+A8MT33	SYCE1L	ENSG00000205078	0.56	103	0.375	diabetes mellitus	-	-	-
+Q5JSQ8	KHDC1L	ENSG00000256980	0.64	39	0.373	Abnormality of the skeletal system	GO:0003723	RNA binding	HIGH
+Q9H920	RNF121	ENSG00000137522	0.93	57	0.370	neurodegenerative disease	GO:0046872	metal ion binding	HIGH
+Q8NGX1	OR2T34	ENSG00000183310	0.92	4	0.370	neurodegenerative disease	GO:0004984	olfactory receptor activity	HIGH
+Q8IZ02	LRRC34	ENSG00000171757	0.91	94	0.370	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q86X60	FAM72B	ENSG00000188610	0.86	144	0.370	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q86UV7	TRIM73	ENSG00000178809	0.61	27	0.370	neurodegenerative disease	GO:0008270	zinc ion binding	HIGH
+Q6UY18	LINGO4	ENSG00000213171	0.59	33	0.370	Intellectual disability	GO:0005515	protein binding	HIGH
+Q86YG4	NT5DC4	ENSG00000144130	0.64	28	0.369	Filippi syndrome	GO:0003824	catalytic activity	MEDIUM
+Q8TDW4	ST7L	ENSG00000007341	0.88	81	0.367	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q6NVV3	NIPAL1	ENSG00000163293	0.63	56	0.365	gout	GO:0015095	magnesium ion transmembrane transporter activity	HIGH
+Q6ZRR5	TLCD5	ENSG00000181264	1.00	29	0.364	open-angle glaucoma	GO:0005515	protein binding	HIGH
+Q8NAB2	KBTBD3	ENSG00000182359	0.62	27	0.364	neurodegenerative disease	GO:0005515	protein binding	HIGH
+A6NFY4	NEMP2	ENSG00000189362	0.93	24	0.361	hypothyroidism	-	-	-
+P16415	ZNF823	ENSG00000197933	0.53	27	0.360	schizophrenia	GO:0005488	binding	HIGH
+Q5VZ66	JAKMIP3	ENSG00000188385	0.61	65	0.358	Back pain	GO:0008017	microtubule binding	HIGH
+Q86XH1	DRC11	ENSG00000132321	0.56	358	0.357	alcohol drinking	GO:0005524	ATP binding	HIGH
+Q6UXD7	SLC49A3	ENSG00000169026	0.96	27	0.356	Abnormality of the skeletal system	GO:0022857	transmembrane transporter activity	HIGH
+Q6UYE1	DLEU7	ENSG00000186047	0.62	91	0.356	Inguinal hernia	-	-	-
+Q96MT1	RNF145	ENSG00000145860	0.78	82	0.355	psoriasis	GO:0005515	protein binding	HIGH
+A6NML5	TMEM212	ENSG00000186329	0.75	87	0.353	Microscopic hematuria	GO:0005515	protein binding	MEDIUM
+P0C7V8	DCAF8L2	ENSG00000189186	0.76	6	0.352	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q8NFQ5	BPIFB6	ENSG00000167104	0.57	16	0.352	basal cell carcinoma	GO:0008289	lipid binding	HIGH
+A6NGN9	IGLON5	ENSG00000142549	0.75	362	0.345	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q9BXU1	STK31	ENSG00000196335	0.65	95	0.343	alcohol drinking	GO:0005524	ATP binding	HIGH
+E7ERA6	RNF223	ENSG00000237330	0.92	80	0.341	neurodegenerative disease	GO:0005515	protein binding	HIGH
+A6NP11	ZNF716	ENSG00000182111	0.85	20	0.341	male reproductive organ cancer	GO:0005488	binding	HIGH
+Q9H1X3	DNAJC25	ENSG00000059769	0.59	16	0.341	neurodegenerative disease	GO:0005488	binding	HIGH
+Q9BXM9	FSD1L	ENSG00000106701	0.52	48	0.340	congenital hydrocephalus	GO:0042803	protein homodimerization activity	HIGH
+Q8NGS0	OR1N1	ENSG00000171505	0.95	7	0.339	dermatomycosis	GO:0004984	olfactory receptor activity	HIGH
+Q6P3X8	PGBD2	ENSG00000185220	0.73	139	0.339	hypertensive disorder	GO:0043565	sequence-specific DNA binding	LOW
+Q6ZW05	PTCHD4	ENSG00000244694	0.98	73	0.330	clavicle fracture	GO:0005515	protein binding	HIGH
+A6NL26	OR5B21	ENSG00000198283	0.96	14	0.329	fracture of pelvis	GO:0004930	G protein-coupled receptor activity	HIGH
+Q6MZZ7	CAPN13	ENSG00000162949	0.57	76	0.327	ovarian dysfunction	GO:0004198	calcium-dependent cysteine-type endopeptidase activity	HIGH
+P59095	STARD6	ENSG00000174448	0.97	50	0.323	color vision disorder	GO:0008289	lipid binding	HIGH
+A6NMZ5	OR4C45	ENSG00000260811	0.67	38	0.323	hypertensive disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH70	OR4A16	ENSG00000181961	0.99	20	0.321	osteoarthritis	GO:0004930	G protein-coupled receptor activity	HIGH
+Q5TDP6	LGSN	ENSG00000146166	0.87	64	0.321	multiple sclerosis	GO:0004356	glutamine synthetase activity	HIGH
+A0PJX8	TMEM82	ENSG00000162460	0.82	14	0.321	placenta praevia	-	-	-
+Q9NRM2	ZNF277	ENSG00000198839	0.59	61	0.319	neurodegenerative disease	GO:0005488	binding	HIGH
+Q86TD4	SRL	ENSG00000185739	0.85	204	0.318	atrial fibrillation	GO:0005525	GTP binding	HIGH
+Q8NGN0	OR4D5	ENSG00000171014	0.87	5	0.317	neurodegenerative disease	GO:0004984	olfactory receptor activity	HIGH
+Q86VS3	IQCH	ENSG00000103599	0.96	245	0.315	Abnormality of the skeletal system	-	-	-
+Q8N0Z9	VSIG10	ENSG00000176834	0.74	46	0.315	atrial septal defect	GO:0005515	protein binding	HIGH
+Q5SQS7	SH2D4B	ENSG00000178217	0.59	62	0.312	presbycusis	GO:0005515	protein binding	HIGH
+B2RXF0	TMEM229A	ENSG00000234224	1.00	38	0.311	Abnormality of the gastrointestinal tract	-	-	-
+Q8NGE1	OR6C4	ENSG00000179626	0.99	6	0.310	neurodegenerative disease	GO:0004930	G protein-coupled receptor activity	HIGH
+Q9H720	CWH43	ENSG00000109182	0.99	839	0.310	type 2 diabetes mellitus	GO:0003824	catalytic activity	HIGH
+Q9NXL2	ARHGEF38	ENSG00000236699	0.77	95	0.310	estrogen-receptor positive breast cancer	GO:0005515	protein binding	HIGH
+Q8IUA0	WFDC8	ENSG00000158901	0.60	8	0.309	neurodegenerative disease	GO:0004867	serine-type endopeptidase inhibitor activity	HIGH
+Q8WUS8	SDR42E1	ENSG00000184860	0.84	439	0.307	ovarian neoplasm	GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	HIGH
+Q6ZWI9	RFPL4B	ENSG00000251258	0.65	23	0.306	phototoxic dermatitis	GO:0005515	protein binding	HIGH
+Q68CR1	SEL1L3	ENSG00000091490	0.59	114	0.305	Genu valgum	GO:0005515	protein binding	HIGH
+Q9ULK6	RNF150	ENSG00000170153	0.58	67	0.305	alcohol drinking	GO:0005515	protein binding	HIGH
+Q6ZNQ3	LRRC69	ENSG00000214954	0.79	32	0.303	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q9H341	OR51M1	ENSG00000184698	0.64	7	0.303	neurodegenerative disease	GO:0004930	G protein-coupled receptor activity	HIGH
+Q86V85	GPR180	ENSG00000152749	0.95	70	0.302	alcohol drinking	GO:0005515	protein binding	LOW
+Q8NCI6	GLB1L3	ENSG00000166105	0.71	36	0.302	neurodegenerative disease	GO:0004565	beta-galactosidase activity	HIGH
+Q8TD33	SCGB1C1	ENSG00000188076	0.67	33	0.301	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q6ZUK4	TMEM26	ENSG00000196932	0.77	72	0.299	neurodegenerative disease	-	-	-
+Q86WN1	FCHSD1	ENSG00000197948	0.67	69	0.299	asthma	GO:0005515	protein binding	HIGH
+Q6IEZ7	OR2T5	ENSG00000203661	0.73	3	0.297	neurodegenerative disease	GO:0004984	olfactory receptor activity	HIGH
+Q30KQ7	DEFB113	ENSG00000214642	0.59	18	0.297	neurodegenerative disease	GO:0005488	binding	HIGH
+Q7Z410	TMPRSS9	ENSG00000178297	0.81	40	0.296	Global developmental delay	GO:0004252	serine-type endopeptidase activity	HIGH
+Q9NPZ5	B3GAT2	ENSG00000112309	0.63	225	0.294	Abnormality of limbs	GO:0015018	galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity	HIGH
+Q8ND71	GIMAP8	ENSG00000171115	0.62	54	0.294	corneal dystrophy	GO:0005525	GTP binding	HIGH
+Q6PIV7	SLC25A34	ENSG00000162461	0.58	30	0.294	alcohol drinking	GO:0022857	transmembrane transporter activity	HIGH
+Q8N945	PRELID2	ENSG00000186314	0.94	55	0.293	intracranial hemorrhage	GO:0005515	protein binding	HIGH
+Q5VVB8	TMEM244	ENSG00000203756	0.59	32	0.293	dementia	-	-	-
+A6NHC0	CAPN8	ENSG00000203697	0.57	91	0.293	preeclampsia	GO:0004198	calcium-dependent cysteine-type endopeptidase activity	HIGH
+Q9Y2G4	ANKRD6	ENSG00000135299	0.62	96	0.292	alcohol drinking	GO:0005515	protein binding	HIGH
+Q6UWL2	SUSD1	ENSG00000106868	0.51	40	0.292	Proptosis	GO:0005509	calcium ion binding	HIGH
+Q8NGE0	OR10AD1	ENSG00000172640	0.93	13	0.290	hypertensive disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q08AF3	SLFN5	ENSG00000166750	0.69	96	0.290	COVID-19	GO:0005488	binding	HIGH
+Q6UWY5	OLFML1	ENSG00000183801	0.97	59	0.288	Phenotypic abnormality	GO:0005515	protein binding	HIGH
+Q6UWF9	FAM180A	ENSG00000189320	0.76	28	0.288	Meniere disease	GO:0005515	protein binding	MEDIUM
+Q9UJ99	CDH22	ENSG00000149654	0.73	57	0.288	obesity disorder	GO:0005509	calcium ion binding	HIGH
+Q8WXS4	TMEM37	ENSG00000171227	0.81	200	0.287	preeclampsia	GO:0005244	voltage-gated monoatomic ion channel activity	HIGH
+Q86X40	LRRC28	ENSG00000168904	0.69	36	0.287	acute cystitis	GO:0005515	protein binding	HIGH
+Q5UAW9	GPR157	ENSG00000180758	0.56	35	0.287	idiopathic pulmonary fibrosis	GO:0004930	G protein-coupled receptor activity	HIGH
+Q96R08	OR5B12	ENSG00000172362	0.95	15	0.285	diabetic ketoacidosis	GO:0004984	olfactory receptor activity	HIGH
+Q9H7M6	ZSWIM4	ENSG00000132003	0.85	37	0.284	musculoskeletal system disorder	GO:0008270	zinc ion binding	HIGH
+Q6T423	SLC22A25	ENSG00000196600	0.50	42	0.284	ankylosing spondylitis	GO:0022857	transmembrane transporter activity	HIGH
+P0C7M8	CLEC2L	ENSG00000236279	0.92	29	0.283	placenta praevia	GO:0005488	binding	HIGH
+Q6ZTA4	TRIM67	ENSG00000119283	0.85	1341	0.283	response to xenobiotic stimulus	GO:0042803	protein homodimerization activity	HIGH
+Q8NGH5	OR56A1	ENSG00000180934	0.85	13	0.283	neurodegenerative disease	GO:0004984	olfactory receptor activity	HIGH
+Q8NG83	OR2M3	ENSG00000228198	0.77	5	0.283	neurodegenerative disease	GO:0004984	olfactory receptor activity	HIGH
+Q6UXH9	PAMR1	ENSG00000149090	0.58	84	0.283	response to xenobiotic stimulus	GO:0004252	serine-type endopeptidase activity	HIGH
+P11844	CRYGA	ENSG00000168582	0.86	541	0.282	Age-related cataract	GO:0005515	protein binding	HIGH
+Q8N468	SLC60A1	ENSG00000174514	0.72	69	0.282	bladder calculus	GO:0022857	transmembrane transporter activity	HIGH
+Q9BYG7	MRO	ENSG00000134042	0.54	70	0.282	corneal ulcer	GO:0005488	binding	HIGH
+Q0P6D2	DIPK1C	ENSG00000187773	0.58	18	0.281	metabolic disease	GO:0016301	kinase activity	HIGH
+Q7Z4L9	PPP1R42	ENSG00000178125	0.56	67	0.281	deficiency anemia	GO:0005515	protein binding	HIGH
+Q495N2	SLC36A3	ENSG00000186334	0.65	14	0.279	stroke disorder	GO:0015171	amino acid transmembrane transporter activity	HIGH
+Q8NGR3	OR1K1	ENSG00000165204	0.61	1	0.279	tooth disorder	GO:0004984	olfactory receptor activity	HIGH
+Q5VT79	ANXA8L1	ENSG00000264230	0.67	27	0.278	stroke disorder	GO:0005509	calcium ion binding	HIGH
+Q86W74	ANKRD46	ENSG00000186106	0.58	198	0.278	Peyronie disease	GO:0005515	protein binding	HIGH
+Q5VUY0	AADACL3	ENSG00000188984	0.99	16	0.276	skull disorder	GO:0052689	carboxylic ester hydrolase activity	HIGH
+Q9BXY5	CAPS2	ENSG00000180881	0.80	60	0.276	neurodegenerative disease	GO:0005509	calcium ion binding	HIGH
+Q96SM3	CPXM1	ENSG00000088882	0.74	117	0.276	portal hypertension	GO:0004181	metallocarboxypeptidase activity	HIGH
+Q5W064	LIPJ	ENSG00000204022	0.98	55	0.273	reading and spelling ability	GO:0016788	hydrolase activity, acting on ester bonds	HIGH
+Q8NGT1	OR2K2	ENSG00000171133	0.78	14	0.273	neurodegenerative disease	GO:0004930	G protein-coupled receptor activity	HIGH
+A6NCL2	LRCOL1	ENSG00000204583	0.72	10	0.272	neurodegenerative disease	GO:0008047	enzyme activator activity	HIGH
+Q4AC99	ACCSL	ENSG00000205126	0.51	12	0.272	eye disorder	GO:0030170	pyridoxal phosphate binding	HIGH
+Q86SM5	MRGPRG	ENSG00000182170	0.99	10	0.269	familial hemolytic anemia	GO:0004930	G protein-coupled receptor activity	HIGH
+Q5VTA0	PRAMEF17	ENSG00000204479	0.98	500	0.268	Hypercholesterolemia	GO:0005515	protein binding	HIGH
+Q9BXT4	TDRD1	ENSG00000095627	0.86	154	0.268	male infertility	GO:0005515	protein binding	HIGH
+Q8NGY1	OR10Z1	ENSG00000198967	0.98	8	0.266	juvenile polyposis/hereditary hemorrhagic telangiectasia syndrome	GO:0004930	G protein-coupled receptor activity	HIGH
+Q4L235	AASDH	ENSG00000157426	0.85	144	0.266	cervicitis	GO:0005515	protein binding	HIGH
+Q8NC67	NETO2	ENSG00000171208	0.68	295	0.266	ovarian dysfunction	GO:0005515	protein binding	HIGH
+Q7RTY8	TMPRSS7	ENSG00000176040	0.75	40	0.265	placental retention	GO:0004252	serine-type endopeptidase activity	HIGH
+Q5VW38	GPR107	ENSG00000148358	0.97	62	0.264	frozen shoulder	GO:0005515	protein binding	MEDIUM
+Q3MIS6	ZNF528	ENSG00000167555	0.98	40	0.259	essential tremor	GO:0005488	binding	HIGH
+Q5VVW2	GARNL3	ENSG00000136895	0.66	70	0.259	Intellectual disability	GO:0005096	GTPase activator activity	HIGH
+Q8NH83	OR4A5	ENSG00000221840	0.77	33	0.255	hypertensive disorder	GO:0004984	olfactory receptor activity	HIGH
+A0A1B0GTI8	TMEM272	ENSG00000281106	0.71	20	0.255	asthma	-	-	-
+P0C7T8	TMEM253	ENSG00000232070	0.97	17	0.254	neurodegenerative disease	GO:0019865	immunoglobulin binding	LOW
+P0C2S0	CTXN2	ENSG00000233932	0.63	27	0.253	Epiretinal membrane	-	-	-
+A6NNF4	ZNF726	ENSG00000213967	0.95	26	0.252	testicular germ cell tumor	GO:0005488	binding	HIGH
+Q5TEZ5	C6orf163	ENSG00000203872	0.94	11	0.252	neurodegenerative disease	-	-	-
+Q8TET4	GANC	ENSG00000214013	0.89	40	0.252	hypertensive disorder	GO:0030246	carbohydrate binding	HIGH
+Q9H3V2	MS4A5	ENSG00000166930	0.84	4	0.252	major salivary gland cancer	GO:0005515	protein binding	HIGH
+Q5JXA9	SIRPB2	ENSG00000196209	0.82	20	0.252	pneumonitis	GO:0005515	protein binding	HIGH
+Q9GZM6	OR8D2	ENSG00000279116	0.74	8	0.251	neurodegenerative disease	GO:0004930	G protein-coupled receptor activity	HIGH
+A4D1F6	LRRD1	ENSG00000240720	0.68	14	0.250	Parasomnia	GO:0005515	protein binding	HIGH
+H0Y354	FAM72C	ENSG00000263513	0.95	103	0.248	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q63ZE4	SLC22A10	ENSG00000184999	0.90	55	0.247	scoliosis	GO:0022857	transmembrane transporter activity	HIGH
+Q96EX2	RNFT2	ENSG00000135119	0.91	486	0.246	placenta praevia	GO:0061630	ubiquitin protein ligase activity	HIGH
+Q86WN2	IFNE	ENSG00000184995	0.64	135	0.245	hypothyroidism	GO:0005126	cytokine receptor binding	HIGH
+A0A5F9ZH02	SMIM42	ENSG00000288460	0.87	7	0.244	aortic disorder	-	-	-
+Q8N9B4	ANKRD42	ENSG00000137494	0.71	30	0.244	adverse effect	GO:0005515	protein binding	HIGH
+A8MTL0	IQCF5	ENSG00000214681	0.75	9	0.243	neurodegenerative disease	GO:0005515	protein binding	HIGH
+A0A8V8TMC4	CCNYL1B	ENSG00000284209	0.87	6	0.241	Alzheimer disease	GO:0005515	protein binding	HIGH
+P62502	LCN6	ENSG00000267206	0.60	30	0.241	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q8NGH3	OR2D3	ENSG00000178358	0.80	2	0.239	male reproductive organ cancer	GO:0004984	olfactory receptor activity	HIGH
+Q7Z402	TMC7	ENSG00000170537	0.78	173	0.239	herpes zoster	GO:0043120	tumor necrosis factor binding	LOW
+Q8N988	ZNF557	ENSG00000130544	0.61	54	0.239	preeclampsia	GO:0005488	binding	HIGH
+Q5T2N8	ATAD3C	ENSG00000215915	0.53	67	0.239	neurodegenerative disease	GO:0016887	ATP hydrolysis activity	HIGH
+Q9GZU0	C6orf62	ENSG00000112308	0.52	31	0.239	ovarian neoplasm	-	-	-
+Q8NFQ6	BPIFC	ENSG00000184459	0.82	28	0.238	thrombophilia	GO:0008289	lipid binding	HIGH
+A8MPS7	YDJC	ENSG00000161179	0.59	152	0.237	systemic lupus erythematosus	GO:0003824	catalytic activity	HIGH
+Q8TCU3	SLC7A13	ENSG00000164893	0.79	23	0.236	ovarian neoplasm	GO:0022857	transmembrane transporter activity	HIGH
+Q6ZV89	SH2D5	ENSG00000189410	0.51	150	0.236	stomach disorder	GO:0005515	protein binding	HIGH
+Q6UXQ4	C2orf66	ENSG00000187944	0.71	15	0.234	alcohol drinking	-	-	-
+Q8N808	SLC35G3	ENSG00000164729	0.93	14	0.230	neurodegenerative disease	GO:0005515	protein binding	HIGH
+Q5T9Z0	TEDDM1	ENSG00000203730	0.65	14	0.230	gastrointestinal disease	-	-	-
+A2RUU4	CLPSL1	ENSG00000204140	0.64	18	0.228	Graves disease	GO:0008047	enzyme activator activity	HIGH
+A6NDI0	TRIM49B	ENSG00000182053	0.63	21	0.227	venous thromboembolism	GO:0008270	zinc ion binding	HIGH
+Q9UJH8	METRN	ENSG00000103260	0.95	147	0.225	urethral syndrome	GO:0005515	protein binding	LOW
+A0A2R8YFL7	OOSP4A	ENSG00000285010	0.84	1	0.221	inherited retinal dystrophy	GO:0005515	protein binding	MEDIUM
+A6NEN9	CXorf65	ENSG00000204165	0.59	10	0.220	neurodegenerative disease	-	-	-
+Q3KPI0	CEACAM21	ENSG00000007129	0.52	218	0.218	prostate carcinoma	GO:0005515	protein binding	HIGH
+Q8NGI0	OR52N2	ENSG00000180988	0.95	10	0.217	inherited hemoglobinopathy	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NG85	OR2L3	ENSG00000198128	0.77	4	0.217	malunion fracture	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8N9V2	TRIML1	ENSG00000184108	0.64	51	0.215	bone remodeling disease	GO:0005515	protein binding	HIGH
+Q8NG77	OR2T12	ENSG00000177201	0.82	6	0.213	major depressive disorder	GO:0004984	olfactory receptor activity	HIGH
+A6NC86	PINLYP	ENSG00000234465	0.83	15	0.210	neurodegenerative disease	GO:0004859	phospholipase inhibitor activity	HIGH
+Q8NGY6	OR6N2	ENSG00000188340	0.85	8	0.208	spondylolisthesis	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A3B3IT45	OR51C1	ENSG00000197674	0.52	4	0.202	inherited hemoglobinopathy	GO:0004930	G protein-coupled receptor activity	HIGH
+A6NM03	OR2AG2	ENSG00000188124	0.84	7	0.201	liver disorder	GO:0004984	olfactory receptor activity	HIGH
+P0C672	TSPAN19	ENSG00000231738	0.69	19	0.197	hair color	GO:0005515	protein binding	HIGH
+Q5GH77	XKR3	ENSG00000172967	0.88	13	0.194	connective tissue disorder	GO:0017128	phospholipid scramblase activity	MEDIUM
+Q96BX8	MOB3A	ENSG00000172081	0.65	34	0.193	neurodegenerative disease	GO:0005515	protein binding	HIGH
+P17019	ZNF708	ENSG00000182141	0.97	26	0.192	type 2 diabetes mellitus	GO:0005488	binding	HIGH
+Q8NGI9	OR5A2	ENSG00000172324	0.81	9	0.190	smoking initiation	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A0U1RRI6	CENPVL3	ENSG00000224109	0.76	5	0.189	spinal muscular atrophy	GO:0016846	carbon-sulfur lyase activity	HIGH
+Q52M93	ZNF585B	ENSG00000245680	0.66	18	0.188	Alzheimer disease	GO:0005488	binding	HIGH
+Q9BZ81	MAGEB5	ENSG00000188408	0.55	20	0.188	COVID-19	GO:0005515	protein binding	HIGH
+Q8NGD1	OR4N2	ENSG00000176294	0.70	12	0.186	corneal dystrophy	GO:0004984	olfactory receptor activity	HIGH
+Q8NGC0	OR5AU1	ENSG00000169327	0.88	6	0.185	restless legs syndrome	GO:0004930	G protein-coupled receptor activity	HIGH
+P60606	CTXN1	ENSG00000178531	0.67	22	0.185	neurodegenerative disease	-	-	-
+Q5TC63	GRTP1	ENSG00000139835	0.81	35	0.177	gangrene	GO:0005515	protein binding	HIGH
+Q96CS4	ZNF689	ENSG00000156853	0.62	74	0.176	tympanic membrane perforation	GO:0005488	binding	HIGH
+Q9NVX7	KBTBD4	ENSG00000123444	0.77	49	0.175	deep vein thrombosis	GO:0005515	protein binding	HIGH
+Q8NGF8	OR4B1	ENSG00000175619	0.54	23	0.170	atrial fibrillation	GO:0004930	G protein-coupled receptor activity	HIGH
+A6NJW9	CD8B2	ENSG00000254126	0.55	20	0.165	cholelithiasis	GO:0015026	coreceptor activity	HIGH
+A6NE02	BTBD17	ENSG00000204347	0.97	19	0.160	digestive system disorder	GO:0005515	protein binding	HIGH
+Q17R55	FAM187B	ENSG00000177558	0.57	4	0.160	poisoning	GO:0005515	protein binding	MEDIUM
+Q9P255	ZNF492	ENSG00000229676	0.75	33	0.158	Splenomegaly	GO:0005488	binding	HIGH
+Q8NGR6	OR1B1	ENSG00000280094	0.98	6	0.156	Subdural hemorrhage	GO:0004984	olfactory receptor activity	HIGH
+P0C645	OR4E1	ENSG00000276240	0.82	16	0.156	alcohol drinking	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGB4	OR4S1	ENSG00000176555	0.51	12	0.156	hypertensive disorder	GO:0004984	olfactory receptor activity	HIGH
+Q8NH92	OR1S1	ENSG00000280204	0.98	3	0.146	carotid artery disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGQ3	OR1S2	ENSG00000197887	0.96	4	0.146	carotid artery disorder	GO:0004984	olfactory receptor activity	HIGH
+Q8NGI4	OR4D11	ENSG00000176200	0.93	5	0.145	systemic inflammatory response syndrome	GO:0004984	olfactory receptor activity	HIGH
+A6H8M9	CDHR4	ENSG00000187492	0.70	29	0.142	hypertensive disorder	GO:0005515	protein binding	HIGH
+Q9GZN6	SLC6A16	ENSG00000063127	0.99	25	0.133	pneumonitis	GO:0015370	solute:sodium symporter activity	HIGH
+Q8N0Y3	OR4N4	ENSG00000183706	0.87	3	0.131	skin disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q9BZ76	CNTNAP3	ENSG00000106714	0.91	50	0.128	basal cell carcinoma	GO:0005515	protein binding	HIGH
+O60811	PRAMEF2	ENSG00000120952	0.59	498	0.128	bladder exstrophy	GO:0005515	protein binding	HIGH
+Q8NGE7	OR9K2	ENSG00000170605	0.91	6	0.127	liver disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8N7C7	RNF148	ENSG00000235631	0.80	16	0.127	infectious meningitis	GO:0005515	protein binding	HIGH
+Q6ZST4	LCNL1	ENSG00000214402	0.58	14	0.123	diabetes mellitus	GO:0036094	small molecule binding	HIGH
+Q8NH64	OR51A7	ENSG00000176895	0.86	7	0.118	bladder exstrophy	GO:0004984	olfactory receptor activity	HIGH
+O75373	ZNF737	ENSG00000237440	0.82	26	0.118	digestive system disorder	GO:0005488	binding	HIGH
+Q9Y5F6	PCDHGC5	ENSG00000240764	0.82	25	0.118	hereditary disease	GO:0005509	calcium ion binding	HIGH
+Q8NGG6	OR8B12	ENSG00000170953	0.78	3	0.118	ankylosing spondylitis	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH21	OR4F5	ENSG00000186092	0.75	2	0.118	retinitis pigmentosa	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8TE96	DQX1	ENSG00000144045	0.54	28	0.118	arthrogryposis multiplex congenita	GO:0005488	binding	HIGH
+C9JXX5	FREY1	ENSG00000234776	0.86	33	0.115	SAPHO syndrome	-	-	-
+Q8NGI2	OR52N4	ENSG00000181074	0.62	8	0.112	gout	GO:0004984	olfactory receptor activity	HIGH
+A6NMS3	OR5K4	ENSG00000196098	0.92	1	0.111	essential tremor	GO:0004984	olfactory receptor activity	HIGH
+A6NET4	OR5K3	ENSG00000206536	0.91	2	0.111	essential tremor	GO:0004930	G protein-coupled receptor activity	HIGH
+Q96FB5	METTL25B	ENSG00000143303	0.97	22	0.110	ovarian dysfunction	GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferase activity	HIGH
+Q8NH56	OR52N5	ENSG00000181009	0.91	7	0.108	complication	GO:0004984	olfactory receptor activity	HIGH
+Q96R30	OR2V2	ENSG00000182613	0.95	2	0.104	diabetes mellitus	GO:0004984	olfactory receptor activity	HIGH
+Q6JVE9	LCN8	ENSG00000204001	0.63	78	0.103	osteoarthritis	GO:0036094	small molecule binding	HIGH
+Q5JW98	CALHM4	ENSG00000164451	0.99	201	0.102	retinitis pigmentosa	GO:0005515	protein binding	HIGH
+Q14588	ZNF234	ENSG00000263002	0.78	25	0.100	ovarian dysfunction	GO:0005488	binding	HIGH
+Q6IFG1	OR52E8	ENSG00000183269	0.80	4	0.096	kidney disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8N815	CNTD1	ENSG00000176563	0.65	111	0.094	Female infertility due to fertilization defect	GO:0005515	protein binding	HIGH
+Q8NE00	SLC38A12	ENSG00000109066	0.58	293	0.094	cellulitis	GO:0015171	amino acid transmembrane transporter activity	HIGH
+A0A1W2PPL8	TAF11L14	ENSG00000250782	0.91	8	0.093	placenta praevia	GO:0046982	protein heterodimerization activity	HIGH
+A0A1W2PQ09	TAF11L11	ENSG00000283740	0.66	2	0.088	alcohol drinking	GO:0046982	protein heterodimerization activity	HIGH
+A0A1B0GWK0	PVALEF	ENSG00000225180	0.68	6	0.087	portal hypertension	GO:0005509	calcium ion binding	HIGH
+Q8NGC5	OR6J1	ENSG00000255804	0.98	13	0.086	ulcerative colitis	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGG0	OR8J3	ENSG00000167822	0.91	9	0.085	liver disorder	GO:0004984	olfactory receptor activity	HIGH
+P58173	OR2B6	ENSG00000124657	0.67	31	0.085	breast carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGK4	OR52K1	ENSG00000196778	0.70	30	0.081	familial hemolytic anemia	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NHV5	MOSMO	ENSG00000185716	0.68	664	0.079	Heterotaxia	-	-	-
+Q5SWL8	PRAMEF19	ENSG00000204480	0.80	496	0.078	non-syndromic male infertility due to sperm motility disorder	GO:0005515	protein binding	HIGH
+Q9H1F0	WFDC10A	ENSG00000180305	0.52	6	0.077	Abnormality of the gastrointestinal tract	GO:0030414	peptidase inhibitor activity	HIGH
+Q8NH67	OR52I2	ENSG00000226288	0.65	6	0.075	familial hemolytic anemia	GO:0004984	olfactory receptor activity	HIGH
+Q5XG92	CES4A	ENSG00000172824	0.99	23	0.074	nasopharyngeal carcinoma	GO:0017171	serine hydrolase activity	HIGH
+A6NI56	CCDC154	ENSG00000197599	0.96	286	0.074	laryngotracheoesophageal cleft	-	-	-
+Q8NCS4	TMEM35B	ENSG00000243749	0.96	15	0.074	glioma	-	-	-
+Q8NGL4	OR5D13	ENSG00000279761	0.90	9	0.074	metabolic syndrome	GO:0004930	G protein-coupled receptor activity	HIGH
+Q15622	OR7A5	ENSG00000188269	0.78	43	0.074	cancer	GO:0004984	olfactory receptor activity	HIGH
+Q8NGN1	OR6T1	ENSG00000181499	0.97	4	0.073	rheumatic disorder	GO:0004984	olfactory receptor activity	HIGH
+P0DI80	ERLN	ENSG00000259120	0.57	33	0.072	autosomal dominant macrothrombocytopenia	-	-	-
+A6NM10	AQP12B	ENSG00000185176	0.99	103	0.071	Hyperlipoproteinemia type 1	GO:0015267	channel activity	HIGH
+P0C7T3	OR56A5	ENSG00000188691	0.92	5	0.071	cervical carcinoma	GO:0004984	olfactory receptor activity	HIGH
+Q8NGC8	OR11H7	ENSG00000258806	0.80	2	0.069	sensory perception of smell	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGL0	OR5L2	ENSG00000205030	0.79	8	0.069	hypertrophic cardiomyopathy	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8IYP2	PRSS58	ENSG00000258223	0.55	6	0.069	ovarian neoplasm	GO:0004252	serine-type endopeptidase activity	HIGH
+Q8NG76	OR2T33	ENSG00000177212	0.97	4	0.067	adolescent idiopathic scoliosis	GO:0004984	olfactory receptor activity	HIGH
+A6NGE4	DCAF8L1	ENSG00000226372	0.86	19	0.066	breast carcinoma	GO:0005515	protein binding	HIGH
+Q9BR11	ZSWIM1	ENSG00000168612	0.64	74	0.065	autosomal dominant severe congenital neutropenia	GO:0008270	zinc ion binding	HIGH
+Q8NGV0	OR2Y1	ENSG00000174339	0.78	66	0.061	familial idiopathic steroid-resistant nephrotic syndrome	GO:0004930	G protein-coupled receptor activity	HIGH
+A6NG13	MGAT4D	ENSG00000205301	0.94	19	0.060	esophageal adenocarcinoma	GO:0016757	glycosyltransferase activity	LOW
+Q8NGG2	OR5T2	ENSG00000181718	0.88	4	0.058	hypertensive disorder	GO:0004984	olfactory receptor activity	HIGH
+Q9H209	OR10A4	ENSG00000170782	0.77	10	0.056	microcephalic primordial dwarfism due to ZNF335 deficiency	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGI6	OR4D10	ENSG00000254466	0.87	14	0.054	cancer	GO:0004984	olfactory receptor activity	HIGH
+A6NNS2	DHRS7C	ENSG00000184544	0.97	23	0.053	Phenotypic abnormality	GO:0016491	oxidoreductase activity	HIGH
+O75820	ZNF189	ENSG00000136870	0.69	27	0.052	ankylosing spondylitis	GO:0005488	binding	HIGH
+A0A3B3IU63	H2AL3	ENSG00000229674	0.92	4	0.051	eyelid disorder	GO:0003677	DNA binding	HIGH
+Q8N8M0	NAT16	ENSG00000167011	0.91	17	0.049	viral meningitis	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups	HIGH
+A8MXE2	B3GALT9	ENSG00000214654	0.91	9	0.048	benign prostatic hyperplasia	GO:0008194	UDP-glycosyltransferase activity	HIGH
+Q6P3V2	ZNF585A	ENSG00000196967	0.76	22	0.048	gout	GO:0005488	binding	HIGH
+Q9H210	OR2D2	ENSG00000166368	0.85	5	0.047	tricuspid valve disorder	GO:0004984	olfactory receptor activity	HIGH
+Q8NGE9	OR9Q2	ENSG00000186513	0.87	6	0.045	venous thromboembolism	GO:0004984	olfactory receptor activity	HIGH
+Q8NGE8	OR4D9	ENSG00000172742	0.62	7	0.044	systemic inflammatory response syndrome	GO:0004984	olfactory receptor activity	HIGH
+B5MCN3	SEC14L6	ENSG00000214491	0.97	18	0.043	hemolysis	GO:0005488	binding	HIGH
+P0DPI3	CENPVL2	ENSG00000283093	0.96	5	0.043	spinal muscular atrophy	GO:0016846	carbon-sulfur lyase activity	HIGH
+Q8NGQ6	OR9I1	ENSG00000172377	0.96	7	0.042	actinic keratosis	GO:0004984	olfactory receptor activity	HIGH
+Q8NH79	OR6X1	ENSG00000221931	0.95	4	0.042	sign or symptom	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGY5	OR6N1	ENSG00000197403	0.83	8	0.042	spondylolisthesis	GO:0004984	olfactory receptor activity	HIGH
+Q8NGP8	OR5M1	ENSG00000255012	0.75	10	0.042	blood coagulation disease	GO:0004984	olfactory receptor activity	HIGH
+Q8NGY3	OR6K3	ENSG00000203757	0.94	4	0.041	non-small cell lung carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+Q6PP77	XKRX	ENSG00000182489	0.90	23	0.041	pancreatic adenocarcinoma	-	-	-
+Q8NGT2	OR13J1	ENSG00000168828	0.72	4	0.040	liver disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q9H2C5	OR52A5	ENSG00000171944	0.64	3	0.040	colorectal adenocarcinoma	GO:0004984	olfactory receptor activity	HIGH
+O95221	OR5F1	ENSG00000149133	0.99	10	0.039	venous thromboembolism	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGS1	OR1J4	ENSG00000239590	0.88	6	0.039	enteritis	GO:0004984	olfactory receptor activity	HIGH
+A0A1W2PR95	IGBP1C	ENSG00000266826	0.78	3	0.039	hypertensive disorder	GO:0019888	protein phosphatase regulator activity	HIGH
+Q8NGK6	OR52I1	ENSG00000232268	0.74	3	0.039	pancreatic adenocarcinoma	GO:0004984	olfactory receptor activity	HIGH
+Q8NGF1	OR52R1	ENSG00000279270	0.79	13	0.038	disease of peritoneum	GO:0004984	olfactory receptor activity	HIGH
+Q8NG94	OR11H1	ENSG00000130538	0.80	9	0.037	Vogt-Koyanagi-Harada disease	GO:0004930	G protein-coupled receptor activity	HIGH
+Q2VIR3	EIF2S3B	ENSG00000180574	0.82	8	0.035	injury	GO:0000049	tRNA binding	HIGH
+Q02325	PLGLB1	ENSG00000183281	0.59	20	0.035	migraine with aura	-	-	-
+Q6IFN5	OR7E24	ENSG00000237521	0.82	8	0.034	pancreatic adenocarcinoma	GO:0004984	olfactory receptor activity	HIGH
+P0DW13	TAF11L8	ENSG00000283967	0.78	2	0.034	placenta praevia	GO:0046982	protein heterodimerization activity	HIGH
+Q8NH61	OR51F2	ENSG00000176925	0.75	10	0.034	pancreatic adenocarcinoma	GO:0004984	olfactory receptor activity	HIGH
+Q8N146	OR8H3	ENSG00000181761	0.64	6	0.034	kidney failure	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NG95	OR7G3	ENSG00000170920	0.93	3	0.033	hyperaldosteronism	GO:0004930	G protein-coupled receptor activity	HIGH
+P0DW12	TAF11L7	ENSG00000284465	0.56	1	0.033	placenta praevia	GO:0046982	protein heterodimerization activity	HIGH
+Q8NGB9	OR4F6	ENSG00000184140	0.95	4	0.032	type 2 diabetes mellitus	GO:0004984	olfactory receptor activity	HIGH
+Q8NHC6	OR14L1	ENSG00000198452	0.97	2	0.031	respiratory tract neoplasm	GO:0004984	olfactory receptor activity	HIGH
+Q6IF42	OR2A2	ENSG00000221989	0.78	1	0.031	heart failure	GO:0004984	olfactory receptor activity	HIGH
+Q8NH55	OR52E5	ENSG00000277932	0.70	3	0.031	myocardial infarction	GO:0004984	olfactory receptor activity	HIGH
+Q8NGR8	OR1L8	ENSG00000171496	0.97	5	0.030	placental abruption	GO:0004984	olfactory receptor activity	HIGH
+Q8NGZ9	OR2T10	ENSG00000184022	0.89	5	0.029	actinic keratosis	GO:0004984	olfactory receptor activity	HIGH
+Q8NH72	OR4C6	ENSG00000181903	0.85	14	0.027	diabetic neuropathy	GO:0004984	olfactory receptor activity	HIGH
+A6NL08	OR6C75	ENSG00000187857	0.78	2	0.027	immune system disorder	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH73	OR4S2	ENSG00000174982	0.54	8	0.027	diabetic neuropathy	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A1B0GVZ9	TMEM269	ENSG00000274386	0.83	9	0.026	hypertensive disorder	-	-	-
+Q8NH01	OR2T11	ENSG00000279301	0.75	5	0.024	actinic keratosis	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A3B3IRV3	MCTS2	ENSG00000101898	0.65	24	0.024	Hypoventilation	GO:0005515	protein binding	HIGH
+Q6IF63	OR52W1	ENSG00000175485	0.99	4	0.020	peptic ulcer disease	GO:0004984	olfactory receptor activity	HIGH
+Q53S08	RAB6D	ENSG00000233087	0.56	4	0.020	obesity disorder	GO:0005525	GTP binding	HIGH
+Q9Y5P0	OR51B4	ENSG00000183251	0.96	19	0.017	cancer	GO:0004930	G protein-coupled receptor activity	HIGH
+Q96R27	OR2M4	ENSG00000171180	0.91	3	0.013	autism	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGX5	OR10K1	ENSG00000173285	0.97	3	0.011	gastric carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGU4	OR2I1	ENSG00000237988	0.76	9	0.011	neoplasm	GO:0004984	olfactory receptor activity	HIGH
+Q8NGZ5	OR2G2	ENSG00000177489	0.76	3	0.011	acute myeloid leukemia	GO:0004930	G protein-coupled receptor activity	HIGH
+B0FP48	UPK3BL1	ENSG00000267368	0.71	13	0.010	breast carcinoma	GO:0005515	protein binding	LOW
+P47888	OR3A3	ENSG00000159961	0.91	7	0.009	gastric carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+P0DQD5	NPY4R2	ENSG00000264717	0.85	3	0.009	ulcerative colitis	GO:0004983	neuropeptide Y receptor activity	HIGH
+P0DN82	OR12D1	ENSG00000251608	0.92	1	0.007	atrial fibrillation	GO:0004984	olfactory receptor activity	HIGH
+Q8NGR2	OR1L6	ENSG00000171459	0.89	5	0.007	acute myeloid leukemia	GO:0004984	olfactory receptor activity	HIGH
+Q8NGJ8	OR51S1	ENSG00000176922	0.65	2	0.007	prostate carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+P0CW19	LIMS3	ENSG00000256977	0.60	11	0.007	Abnormal sperm morphology	GO:0005515	protein binding	HIGH
+P0CV98	TSPY3	ENSG00000228927	0.52	5	0.007	Infertility	GO:0005515	protein binding	HIGH
+Q8NH16	OR2L2	ENSG00000203663	0.81	4	0.006	gastric carcinoma	GO:0004930	G protein-coupled receptor activity	HIGH
+Q6NXP6	NOXRED1	ENSG00000165555	0.58	11	0.006	Alzheimer disease	GO:0003824	catalytic activity	HIGH
+Q8NGX6	OR10R2	ENSG00000198965	0.98	1	0.004	T-cell leukemia	GO:0004930	G protein-coupled receptor activity	HIGH
+Q86UE3	ZNF546	ENSG00000187187	0.79	15	0.004	lobular neoplasia	GO:0005488	binding	HIGH
+P0CV99	TSPY4	ENSG00000233803	0.63	4	0.004	infectious disease	GO:0005515	protein binding	HIGH
+Q8NGN5	OR10G8	ENSG00000234560	0.91	1	0.003	cancer	GO:0004984	olfactory receptor activity	HIGH
+Q8NGX8	OR6Y1	ENSG00000197532	0.57	1	0.003	diabetes mellitus	GO:0004930	G protein-coupled receptor activity	HIGH
+P0C7X4	-	-	1.00	0	0.000	-	GO:0008199	ferric iron binding	HIGH
+A0ABB0MV19	-	-	0.99	0	0.000	-	GO:0019843	rRNA binding	HIGH
+A6NHM9	-	-	0.99	0	0.000	-	GO:0004500	dopamine beta-monooxygenase activity	HIGH
+Q8NH63	-	-	0.99	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+O95013	OR4F21	ENSG00000176269	0.98	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q8MH63	-	-	0.97	0	0.000	-	GO:0015179	L-amino acid transmembrane transporter activity	HIGH
+P0C628	-	-	0.96	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+P0C646	-	-	0.96	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+P0DMU2	-	-	0.96	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGY7	-	-	0.96	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH85	-	ENSG00000291849	0.96	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+O60774	-	-	0.95	0	0.000	-	GO:0050661	NADP binding	HIGH
+P0DN81	-	-	0.95	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH94	OR1L1	ENSG00000173679	0.95	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0A096LPK9	OR4N4C	ENSG00000279408	0.94	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A0B4J1V7	-	-	0.94	0	0.000	-	GO:0005515	protein binding	HIGH
+O76000	-	ENSG00000226832	0.94	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q8NH09	-	-	0.93	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NH42	-	ENSG00000291806	0.93	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+H0Y7S4	-	ENSG00000283216	0.92	0	0.000	-	GO:1990756	ubiquitin-like ligase-substrate adaptor activity	HIGH
+Q6UXT6	-	-	0.92	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q96R72	OR4K3	ENSG00000176290	0.92	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+P0C7N5	-	ENSG00000281038	0.91	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q6ZN68	-	-	0.91	0	0.000	-	-	-	-
+Q8NHA6	-	-	0.91	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q99463	-	-	0.91	0	0.000	-	GO:0004983	neuropeptide Y receptor activity	HIGH
+O60397	-	-	0.90	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q9UGF7	-	ENSG00000224487	0.90	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q6ZSU1	-	-	0.89	0	0.000	-	GO:0020037	heme binding	HIGH
+Q8NGA2	-	-	0.89	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+A0AAG2TV02	-	-	0.88	0	0.000	-	GO:0005515	protein binding	HIGH
+Q5JRS4	-	-	0.88	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A0B4J1Y9	-	-	0.87	0	0.000	-	GO:0005515	protein binding	HIGH
+P0DSN6	-	-	0.87	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q6ZUA9	-	ENSG00000291473	0.86	0	0.000	-	GO:0005488	binding	HIGH
+Q8NH04	-	ENSG00000292015	0.86	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0A075B7F0	-	-	0.85	0	0.000	-	GO:0005515	protein binding	HIGH
+P59922	-	-	0.85	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0AAQ5BHU3	-	-	0.84	0	0.000	-	GO:0005198	structural molecule activity	HIGH
+Q58FF6	-	-	0.84	0	0.000	-	GO:0140662	ATP-dependent protein folding chaperone	HIGH
+Q8NCQ3	-	-	0.84	0	0.000	-	-	-	-
+A8MVZ5	-	-	0.83	0	0.000	-	GO:0005515	protein binding	HIGH
+P0C7N8	-	-	0.83	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q7Z5A4	-	-	0.83	0	0.000	-	GO:0004252	serine-type endopeptidase activity	HIGH
+A0A0J9YY99	-	-	0.81	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0B4J1X5	-	-	0.80	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0C4DH30	-	-	0.80	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A0C4DH68	-	-	0.80	0	0.000	-	GO:0005515	protein binding	HIGH
+Q8N148	-	ENSG00000277378	0.80	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q8TDU5	-	-	0.80	0	0.000	-	GO:0016503	pheromone receptor activity	HIGH
+O96002	-	-	0.79	0	0.000	-	-	-	-
+Q8NGJ3	-	ENSG00000292245	0.79	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+A0A075B6X5	-	-	0.78	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A6NC97	-	-	0.78	0	0.000	-	GO:0005515	protein binding	LOW
+F8VTS6	RFPL4AL1	ENSG00000229292	0.78	1	0.000	sarcoma	GO:0005515	protein binding	HIGH
+Q5STR5	SMIM40	ENSG00000286920	0.78	0	0.000	-	-	-	-
+Q9GIP4	-	-	0.78	0	0.000	-	GO:0022857	transmembrane transporter activity	HIGH
+A0AAG2SXN7	-	-	0.77	0	0.000	-	GO:0004657	proline dehydrogenase activity	HIGH
+Q96R69	-	-	0.77	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0A087WYE8	-	-	0.76	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A0B4J245	-	-	0.76	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0B4J1V1	-	-	0.75	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0B4J273	-	-	0.75	0	0.000	-	GO:0005515	protein binding	HIGH
+Q2M238	-	-	0.75	0	0.000	-	GO:0001181	RNA polymerase I general transcription initiation factor activity	HIGH
+Q6UXR4	-	-	0.75	0	0.000	-	GO:0004867	serine-type endopeptidase inhibitor activity	HIGH
+A0A075B6U6	-	-	0.74	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A0A6YYG3	-	-	0.74	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A5B0	-	-	0.74	0	0.000	-	GO:0005515	protein binding	HIGH
+P58181	-	ENSG00000273953	0.74	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+P58550	-	-	0.74	0	0.000	-	GO:0099106	ion channel regulator activity	HIGH
+A6NCF6	-	-	0.73	0	0.000	-	GO:0005515	protein binding	HIGH
+A6NGN4	-	ENSG00000283216	0.73	0	0.000	-	GO:1990756	ubiquitin-like ligase-substrate adaptor activity	HIGH
+P47883	-	-	0.73	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+A6NK97	-	-	0.72	0	0.000	-	GO:0022857	transmembrane transporter activity	HIGH
+A6NM43	-	-	0.72	0	0.000	-	GO:0140662	ATP-dependent protein folding chaperone	HIGH
+P61550	-	-	0.72	0	0.000	-	-	-	-
+A0A0C4DH31	-	-	0.71	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A5A2	-	-	0.71	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q9UN75	-	ENSG00000291663	0.71	0	0.000	-	GO:0005509	calcium ion binding	HIGH
+A0A075B6S4	-	-	0.70	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0C4DH33	-	-	0.70	0	0.000	-	GO:0005515	protein binding	HIGH
+Q8NHA8	-	-	0.70	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+P0DP07	-	-	0.68	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q8NGA4	-	-	0.68	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0B4J2H0	-	-	0.67	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q8NHC8	-	ENSG00000292016	0.67	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q9BXR3	-	-	0.67	0	0.000	-	GO:0004523	RNA-DNA hybrid ribonuclease activity	HIGH
+A0A0J9YXX1	-	-	0.66	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A4D1U4	-	ENSG00000262599	0.66	0	0.000	-	GO:0005085	guanyl-nucleotide exchange factor activity	MEDIUM
+A6NFF2	-	-	0.66	0	0.000	-	GO:0005488	binding	HIGH
+P0DN80	-	-	0.66	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+P63132	-	-	0.66	0	0.000	-	GO:0004523	RNA-DNA hybrid ribonuclease activity	HIGH
+Q6IF36	-	-	0.66	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGP6	-	ENSG00000291862	0.66	0	0.000	-	GO:0004930	G protein-coupled receptor activity	HIGH
+Q8NGR1	-	ENSG00000277495	0.66	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+Q8NGG4	-	ENSG00000291864	0.65	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0A087WZ39	-	-	0.64	0	0.000	-	GO:0005515	protein binding	HIGH
+A8MVU1	-	-	0.64	0	0.000	-	GO:0016176	superoxide-generating NADPH oxidase activator activity	HIGH
+P0DP09	-	-	0.64	0	0.000	-	GO:0005515	protein binding	HIGH
+P61576	-	-	0.64	0	0.000	-	-	-	-
+Q4QY38	-	ENSG00000284754	0.64	0	0.000	-	GO:0005488	binding	HIGH
+A0A0U1RRA0	ZNF593OS	ENSG00000236782	0.63	3	0.000	hereditary breast carcinoma	-	-	-
+Q8N1T3	-	-	0.63	0	0.000	-	GO:0005524	ATP binding	HIGH
+Q8NE28	-	ENSG00000281245	0.63	0	0.000	-	GO:0005524	ATP binding	HIGH
+A0A1B0GXF2	-	-	0.62	0	0.000	-	GO:0005515	protein binding	HIGH
+E5RIL1	UPK3BL2	ENSG00000284981	0.62	1	0.000	uterine corpus endometrial carcinoma	GO:0004725	protein tyrosine phosphatase activity	LOW
+Q5VZ03	-	ENSG00000291520	0.62	0	0.000	-	GO:0005515	protein binding	HIGH
+Q9H6N6	-	-	0.62	0	0.000	-	-	-	-
+A0A0G2JNH3	-	ENSG00000278178	0.59	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A6NIE9	-	-	0.59	0	0.000	-	GO:0004252	serine-type endopeptidase activity	HIGH
+A0A494C1R9	TSPY9	ENSG00000238074	0.58	0	0.000	-	GO:0005515	protein binding	HIGH
+A0AAG2SXZ4	-	-	0.58	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q8N1L4	-	-	0.58	0	0.000	-	GO:0020037	heme binding	HIGH
+A0A1W2PRN6	-	-	0.57	0	0.000	-	GO:0046982	protein heterodimerization activity	HIGH
+P0CL84	-	-	0.57	0	0.000	-	GO:0005488	binding	HIGH
+P0DPF4	-	-	0.57	0	0.000	-	GO:0005515	protein binding	HIGH
+Q9BZK3	-	-	0.57	0	0.000	-	GO:0005515	protein binding	MEDIUM
+P0DP08	-	-	0.56	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A0A6YYJ7	-	-	0.55	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0G2JMI3	-	-	0.55	0	0.000	-	GO:0005515	protein binding	HIGH
+P0DTW3	-	-	0.55	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q5TYX0	-	ENSG00000282424	0.55	0	0.000	-	GO:1990756	ubiquitin-like ligase-substrate adaptor activity	HIGH
+A0A075B6I1	-	-	0.54	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A0A6YYK4	-	-	0.54	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A576	-	-	0.54	0	0.000	-	GO:0005515	protein binding	MEDIUM
+Q6ZMS4	-	ENSG00000281626	0.54	0	0.000	-	GO:0005488	binding	HIGH
+A0A075B6K5	-	-	0.53	0	0.000	-	GO:0005515	protein binding	HIGH
+A0A1W2PRG0	-	-	0.53	0	0.000	-	GO:0004364	glutathione transferase activity	HIGH
+O95006	-	ENSG00000284965	0.53	0	0.000	-	GO:0004984	olfactory receptor activity	HIGH
+A0A0B4J1V6	-	-	0.52	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A0K0K1C0	-	-	0.52	0	0.000	-	GO:0005515	protein binding	HIGH
+P61578	-	-	0.52	0	0.000	-	-	-	-
+A0A1B0GX49	-	-	0.51	0	0.000	-	GO:0005515	protein binding	MEDIUM
+A0A8I5KW96	-	-	0.51	0	0.000	-	GO:0004017	AMP kinase activity	HIGH
+Q92928	-	-	0.51	0	0.000	-	GO:0005525	GTP binding	HIGH
