@@ -233,6 +233,7 @@ def main():
     rng = random.Random(cfg["seed"] + 7)
     prec = {}
     pvals = {}
+    all_tops = {}   # (arm, branch) -> {acc: top-1 term}, for the paired test
     for arm in arms:
         for b in BRANCHES:
             tops = {}
@@ -240,6 +241,7 @@ def main():
                 picks = specific_terms(arms[arm][b].get(acc, {}), dag, min_conf, 1)
                 if picks and acc in truth[b]:
                     tops[acc] = picks[0][0]
+            all_tops[(arm, b)] = tops
             if not tops:
                 prec[(arm, b)] = (0.0, 0)
                 pvals[(arm, b)] = 1.0
@@ -257,6 +259,21 @@ def main():
                 if ph / len(accs) >= obs:
                     ge += 1
             pvals[(arm, b)] = (ge + 1) / (N_PERM + 1)
+
+    # ---- paired leakage: SS vs FULL on the SAME proteins ------------------
+    # The per-arm table above scores each arm on every protein it can predict,
+    # so SS and FULL cover different cohorts (FULL reaches more via domains) and
+    # the gap conflates leakage with coverage. Here both arms are scored on the
+    # proteins they BOTH predict, isolating the leakage from present-day curated
+    # evidence as a clean paired difference.
+    paired = {}
+    for b in BRANCHES:
+        common = sorted(set(all_tops[("SS", b)]) & set(all_tops[("FULL", b)]))
+        if not common:
+            continue
+        ss_hit = sum(1 for a in common if all_tops[("SS", b)][a] in truth[b][a])
+        fl_hit = sum(1 for a in common if all_tops[("FULL", b)][a] in truth[b][a])
+        paired[b] = (len(common), ss_hit / len(common), fl_hit / len(common))
 
     # ---- outcome writeback (arm SS) ---------------------------------------
     counts = defaultdict(int)
@@ -304,6 +321,17 @@ def main():
                 p, n = prec[(arm, b)]
                 f.write("| {} | {} | {} | {:.3f} | {:.4f} |\n".format(
                     arm, b, n, p, pvals[(arm, b)]))
+        f.write("\n## Leakage, paired (SS vs FULL on the same proteins)\n\n")
+        f.write("Both arms scored on the proteins they both predict, so the "
+                "difference is leakage from present-day curated evidence, not a "
+                "coverage artefact.\n\n")
+        f.write("| branch | n paired | SS prec@1 | FULL prec@1 | leakage |\n"
+                "|---|---:|---:|---:|---:|\n")
+        for b in BRANCHES:
+            if b in paired:
+                n, ss, fl = paired[b]
+                f.write("| {} | {} | {:.3f} | {:.3f} | +{:.3f} |\n".format(
+                    b, n, ss, fl, fl - ss))
         f.write("\n## Outcomes written back (arm SS, top {} per branch)\n\n".format(
             cfg["timesplit"]["top_per_branch"]))
         f.write("supported {} | contradicted {} | unconfirmed {} - all stored as "

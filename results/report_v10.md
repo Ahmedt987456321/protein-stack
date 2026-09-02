@@ -15,6 +15,16 @@ Arm SS = sequence+structure transfer only (leakage-controlled, gated). Arm FULL 
 | FULL | biological_process | 3260 | 0.592 | 0.0010 |
 | FULL | cellular_component | 3140 | 0.756 | 0.0010 |
 
+## Leakage, paired (SS vs FULL on the same proteins)
+
+Both arms scored on the proteins they both predict, so the difference is leakage from present-day curated evidence, not a coverage artefact.
+
+| branch | n paired | SS prec@1 | FULL prec@1 | leakage |
+|---|---:|---:|---:|---:|
+| molecular_function | 2124 | 0.421 | 0.647 | +0.226 |
+| biological_process | 2144 | 0.188 | 0.558 | +0.370 |
+| cellular_component | 2284 | 0.267 | 0.739 | +0.472 |
+
 ## Outcomes written back (arm SS, top 3 per branch)
 
 supported 3538 | contradicted 10 | unconfirmed 23063 - all stored as typed edges in kg.db (rebuild step 13). `unconfirmed` is weak negative evidence only: GO is open-world.
