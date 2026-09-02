@@ -31,14 +31,15 @@ from pis.common import data_dir, load_config, results_dir
 from pis.eval import fmax, fmax_from_curves, protein_curve
 from pis.go import GoDag
 
-ARMS = ["A", "B", "S", "D", "C"]
+ARMS = ["A", "B", "S", "D", "SD", "C"]
 ARM_FILES = {
     "A": "pred_armA.tsv", "B": "pred_armB.tsv", "S": "pred_armS.tsv",
-    "D": "pred_armD.tsv", "C": "pred_armC.tsv",
+    "D": "pred_armD.tsv", "SD": "pred_armSD.tsv", "C": "pred_armC.tsv",
 }
 ARM_NAMES = {
     "A": "sequence only", "B": "naive max-fusion (v0.1)",
-    "S": "structure only", "D": "domains only", "C": "fitted fusion (v0.2)",
+    "S": "structure only", "D": "domains only",
+    "SD": "sequence+domain (structure off)", "C": "fitted fusion (v0.2)",
 }
 BRANCHES = ["molecular_function", "biological_process", "cellular_component"]
 BIN_ORDER = ["lt30", "30to50", "50to80", "ge80"]
@@ -177,18 +178,24 @@ def main():
             "PASS" if g3 else "FAIL"))
         f.write("  - macro-Fmax: " + ", ".join(
             "{} {:.4f}".format(a, macro[a]) for a in ARMS) + "\n")
+        f.write("- **incremental value of structure over sequence+domain "
+                "(macro C minus SD): {:+.4f}** (review point 2: does structure "
+                "add value after domains are known?)\n".format(
+                    macro["C"] - macro["SD"]))
         f.write("\n**Phase 0.2 gate: {}**\n\n".format(verdict))
         f.write("## Fmax by branch / bin\n\n")
-        f.write("| branch | bin | n | A seq | B naive | S struct | D domain | C fused | C-A |\n")
-        f.write("|---|---|---:|---:|---:|---:|---:|---:|---:|\n")
+        f.write("| branch | bin | n | A seq | B naive | S struct | D domain | "
+                "SD seq+dom | C fused | C-A | C-SD |\n")
+        f.write("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n")
         for br in BRANCHES:
             for bb in BIN_ORDER:
                 fa = table[("A", br, bb)][0]
+                fsd = table[("SD", br, bb)][0]
                 fc = table[("C", br, bb)][0]
                 f.write("| {} | {} | {} |".format(br, bb, table[("A", br, bb)][1]))
                 for arm in ARMS:
                     f.write(" {:.4f} |".format(table[(arm, br, bb)][0]))
-                f.write(" {:+.4f} |\n".format(fc - fa))
+                f.write(" {:+.4f} | {:+.4f} |\n".format(fc - fa, fc - fsd))
         f.write("\nEvidence types: seq/structure transfer and learned domain "
                 "associations are COMPUTATIONAL; interpro2go mappings are CURATED; "
                 "ground truth is EXPERIMENTAL GO only.\n")

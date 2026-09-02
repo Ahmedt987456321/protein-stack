@@ -210,6 +210,10 @@ def main():
 
     empty = {b: {} for b in BRANCHES}
     arms = {
+        "SEQ": {b: fuse(cohort, seq_stream[b], empty[b], empty[b], s_seq,
+                        params["tau"], params["alpha"], params["beta"],
+                        params["gamma"], params["tau_d"], params["delta"])
+                for b in BRANCHES},
         "SS": {b: fuse(cohort, seq_stream[b], str_stream[b], empty[b], s_seq,
                        params["tau"], params["alpha"], params["beta"],
                        params["gamma"], params["tau_d"], params["delta"])
@@ -275,6 +279,18 @@ def main():
         fl_hit = sum(1 for a in common if all_tops[("FULL", b)][a] in truth[b][a])
         paired[b] = (len(common), ss_hit / len(common), fl_hit / len(common))
 
+    # ---- prospective contribution of structure: SEQ vs SS, same proteins ---
+    # Does structure add prospective (leakage-controlled) signal over sequence
+    # alone? Both scored on the proteins they both predict.
+    seqss = {}
+    for b in BRANCHES:
+        common = sorted(set(all_tops[("SEQ", b)]) & set(all_tops[("SS", b)]))
+        if not common:
+            continue
+        sq = sum(1 for a in common if all_tops[("SEQ", b)][a] in truth[b][a])
+        ss = sum(1 for a in common if all_tops[("SS", b)][a] in truth[b][a])
+        seqss[b] = (len(common), sq / len(common), ss / len(common))
+
     # ---- outcome writeback (arm SS) ---------------------------------------
     counts = defaultdict(int)
     tier_stats = defaultdict(lambda: [0, 0])  # tier -> [supported, total]
@@ -332,6 +348,17 @@ def main():
                 n, ss, fl = paired[b]
                 f.write("| {} | {} | {:.3f} | {:.3f} | +{:.3f} |\n".format(
                     b, n, ss, fl, fl - ss))
+        f.write("\n## Prospective contribution of structure (SEQ vs SS, same "
+                "proteins)\n\n")
+        f.write("Leakage-controlled: does structure add prospective signal over "
+                "sequence alone?\n\n")
+        f.write("| branch | n paired | SEQ prec@1 | SEQ+struct prec@1 | delta |\n"
+                "|---|---:|---:|---:|---:|\n")
+        for b in BRANCHES:
+            if b in seqss:
+                n, sq, ss = seqss[b]
+                f.write("| {} | {} | {:.3f} | {:.3f} | {:+.3f} |\n".format(
+                    b, n, sq, ss, ss - sq))
         f.write("\n## Outcomes written back (arm SS, top {} per branch)\n\n".format(
             cfg["timesplit"]["top_per_branch"]))
         f.write("supported {} | contradicted {} | unconfirmed {} - all stored as "

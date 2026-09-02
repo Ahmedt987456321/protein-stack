@@ -31,9 +31,11 @@ species:
 
 go_obo_url: "https://purl.obolibrary.org/obo/go/go-basic.obo"
 
-# GO evidence codes accepted as ground truth (CAFA-style experimental set:
-# classic experimental + high-throughput + author/curator statements).
-evidence_codes: [EXP, IDA, IPI, IMP, IGI, IEP, HTP, HDA, HMP, HGI, HEP, TAS, IC]
+# GO evidence codes accepted as ground truth. Strict experimental only:
+# classic experimental (EXP/IDA/IPI/IMP/IGI/IEP) + high-throughput (HTP-class).
+# TAS (traceable author statement) and IC (inferred by curator) are NOT
+# experimental per the GO Consortium and are excluded (review response).
+evidence_codes: [EXP, IDA, IPI, IMP, IGI, IEP, HTP, HDA, HMP, HGI, HEP]
 
 sampling:
   oversample: 200000     # scale-up: effectively "all" annotated proteins

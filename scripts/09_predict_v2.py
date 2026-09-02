@@ -266,11 +266,20 @@ def main():
                 test_s_seq, tau, alpha, beta, gamma, tau_d, delta)
         for b in BRANCHES
     }
+    # ablation arm SD = sequence + domain, structure OFF (review point 2):
+    # C minus SD isolates the incremental value of structure over seq+domain.
+    empty_str = {b: {} for b in BRANCHES}
+    seqdom = {
+        b: fuse(test, seq_stream[b], empty_str[b], dom_stream[b],
+                test_s_seq, tau, alpha, beta, gamma, tau_d, delta)
+        for b in BRANCHES
+    }
     nc = write_preds(r / "pred_armC.tsv", fused)
     ns = write_preds(r / "pred_armS.tsv", str_stream)
     nd = write_preds(r / "pred_armD.tsv", dom_stream)
-    print("Arm C (fused): {} scored terms; Arm S (structure-only): {}; Arm D (domain-only): {}".format(
-        nc, ns, nd))
+    nsd = write_preds(r / "pred_armSD.tsv", seqdom)
+    print("Arm C (fused): {} terms; S (struct): {}; D (domain): {}; "
+          "SD (seq+domain): {}".format(nc, ns, nd, nsd))
 
 
 if __name__ == "__main__":
