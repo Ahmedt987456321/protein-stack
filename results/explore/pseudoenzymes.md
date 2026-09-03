@@ -2,14 +2,14 @@
 
 | family | members scanned | active-like | pseudo-candidates |
 |---|---|---|---|
-| kinase | 1511 | 1011 | 500 |
-| protease | 346 | 247 | 99 |
+| kinase | 1484 | 1001 | 483 |
+| protease | 346 | 240 | 106 |
 
-Geometric check (kinases with both aspartate motifs located): 970 of 1011 have HRD-DFG CA distance in the 5-16 A range expected of the kinase fold.
+Geometric check (kinases with both aspartate motifs located): 961 of 1001 have HRD-DFG CA distance in the 5-16 A range expected of the kinase fold.
 
 Validation against known human pseudokinases present in the dataset: 7 of 8 flagged as pseudo-candidates (ERBB3, PTK7, ILK, STRADA, VRK3, TRIB3, TRIB1, TNNI3K).
 
-Candidates with motifs missing YET experimental catalytic GO annotation (conflicts worth review): 209
+Candidates with motifs missing YET experimental catalytic GO annotation (conflicts worth review): 200
 
 | accession | family | missing | known |
 |---|---|---|---|
@@ -25,7 +25,6 @@ Candidates with motifs missing YET experimental catalytic GO annotation (conflic
 | F4JZW1 | kinase | HRD | - |
 | O00141 | kinase | HRD | - |
 | O14936 | kinase | DFG | - |
-| O15197 | kinase | HRD;DFG | - |
 | O35491 | kinase | HRD | - |
 | O35492 | kinase | HRD | - |
 | O35493 | kinase | HRD | - |
@@ -33,5 +32,6 @@ Candidates with motifs missing YET experimental catalytic GO annotation (conflic
 | O43781 | kinase | HRD | - |
 | O48814 | kinase | HRD | - |
 | O48963 | kinase | HRD;DFG | - |
+| O54781 | kinase | HRD | - |
 
 Full table: pseudoenzymes.tsv. Motif regexes are sequence-level heuristics scanned within InterPro domain boundaries; rows scanned whole-sequence (no boundary available) are marked and less reliable.

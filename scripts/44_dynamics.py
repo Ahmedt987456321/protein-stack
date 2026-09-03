@@ -130,10 +130,11 @@ def main():
                 "spread of CA positions across the ensemble is a proxy for "
                 "intrinsic flexibility that the single AlphaFold DB model hides."
                 "\n\n".format(MAX_SEQ, SEEDS))
-        f.write("Per-residue RMSF is measured on centroid-superposed CA traces "
-                "over residues present in every model. Dark (unannotated) "
-                "proteins were prioritised - flexibility is a functional clue "
-                "for a protein with no known function.\n\n")
+        f.write("Per-residue RMSF is measured on Kabsch-superposed CA traces "
+                "(rotation + translation removed) over residues present in every "
+                "model. Dark (unannotated) proteins were prioritised - "
+                "flexibility is a functional clue for a protein with no known "
+                "function.\n\n")
         f.write("| protein | length | models | mean RMSF (A) | max RMSF (A) | "
                 "call |\n|---|---|---|---|---|---|\n")
         for acc, L, m, mean, mx, call in ranked:
@@ -142,8 +143,8 @@ def main():
         f.write("\nHigh mean RMSF flags a candidate conformationally flexible "
                 "or multi-state protein; localized high-RMSF stretches (see "
                 "dynamics_rmsf.tsv) are candidate hinges or disordered "
-                "segments. RMSF here is rotation-free (centroid-aligned), a "
-                "relative-flexibility proxy, not an absolute B-factor.\n")
+                "segments. RMSF here is a Kabsch-superposed relative-flexibility "
+                "proxy, not an absolute B-factor.\n")
     print("Wrote results/explore/dynamics.md")
 
 

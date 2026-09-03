@@ -1,28 +1,37 @@
 protein_a	protein_b	involves_dark	genetic_assays
+Q9BRY0	Q9NUM3	1	Positive Genetic
 Q91VM3	Q9CQY1	1	Negative Genetic
-Q16222	Q3KQV9	1	Negative Genetic
+Q46800	Q46809	1	Negative Genetic
+P84180	Q9W1U5	1	Phenotypic Enhancement
+P77379	P77402	1	Negative Genetic
+P77337	P77739	1	Negative Genetic
 P77308	Q47622	1	Positive Genetic
-P77171	P77309	1	Negative Genetic
-P53823	Q03144	1	Phenotypic Enhancement
-P43544	P53823	1	Phenotypic Enhancement
+P76250	P77559	1	Negative Genetic
+P75831	P76185	1	Positive Genetic
+P45760	Q46836	1	Negative Genetic
+P45420	Q47536	1	Positive Genetic
+P42701	Q8IZI9	1	Positive Genetic
 P38150	P40361	1	Synthetic Growth Defect
 P37682	P77700	1	Positive Genetic
 P37682	P76250	1	Positive Genetic
 P37682	P52044	1	Positive Genetic
-P37641	P37671	1	Negative Genetic
 P37313	P77268	1	Negative Genetic
 P36646	P36678	1	Negative Genetic
-P27243	P76372	1	Negative Genetic
-P23917	P76586	1	Negative Genetic
+P31697	P45420	1	Negative Genetic
+P29704	Q05497	1	Negative Genetic
+P0AFH6	P76128	1	Positive Genetic
 P0AFH2	Q47622	1	Negative Genetic
-P0ACQ7	P77309	1	Positive Genetic
+P0ACI0	P77402	1	Positive Genetic
 P0ACI0	P77396	1	Positive Genetic
-P0ACH5	P31449	1	Negative Genetic
+P0ACH5	P77402	1	Negative Genetic
 P0AAG0	Q47622	1	Negative Genetic
-P0AAA7	P76372	1	Negative Genetic
-P09378	P31449	1	Positive Genetic
+P0AAG0	P76128	1	Negative Genetic
+P0A9E2	P77402	1	Negative Genetic
 P09377	P77396	1	Positive Genetic
-P07021	P0A910	1	Positive Genetic
+P09238	P24347	1	Negative Genetic
+P09237	P09238	1	Negative Genetic
+P08253	P09238	1	Negative Genetic
+A2P2R3	P43123	1	Negative Genetic
 Q9VTK2	Q9W5D4	0	Phenotypic Enhancement;Phenotypic Suppression
 Q9VQ89	Q9VUB4	0	Phenotypic Suppression
 Q9VMA2	Q9W0P5	0	Phenotypic Enhancement
@@ -84,7 +93,6 @@ Q9BSB4	Q9NT62	0	Phenotypic Enhancement
 Q9BSB4	Q9H0Y0	0	Phenotypic Enhancement
 Q9BS18	Q9UJX2	0	Negative Genetic
 Q9BS16	Q9NSP4	0	Negative Genetic
-Q9BRY0	Q9NUM3	0	Positive Genetic
 Q9BQC6	Q9P0M9	0	Positive Genetic
 Q99J83	Q9CQY1	0	Positive Genetic
 Q99836	Q9Y4K3	0	Phenotypic Suppression
@@ -195,7 +203,6 @@ Q24306	Q8IRY7	0	Phenotypic Enhancement
 Q24306	Q24475	0	Phenotypic Enhancement;Phenotypic Suppression
 Q24306	Q24307	0	Phenotypic Suppression
 Q24214	Q27889	0	Phenotypic Suppression
-Q24186	Q9VFE4	0	Phenotypic Enhancement;Phenotypic Suppression
 Q24151	Q9W0G1	0	Phenotypic Suppression
 Q24151	Q24592	0	Phenotypic Enhancement;Phenotypic Suppression
 Q24117	Q24246	0	Phenotypic Enhancement
@@ -2543,7 +2550,6 @@ P42766	P62910	0	Positive Genetic
 P42766	P62857	0	Positive Genetic
 P42766	P62829	0	Positive Genetic
 P42701	Q99665	0	Phenotypic Enhancement
-P42701	Q8IZI9	0	Positive Genetic
 P42677	Q71UM5	0	Negative Genetic
 P42575	Q07817	0	Phenotypic Suppression
 P42575	P98170	0	Phenotypic Suppression
@@ -6717,7 +6723,6 @@ P29952	P32604	0	Negative Genetic
 P29704	Q12452	0	Negative Genetic
 P29704	Q12063	0	Negative Genetic
 P29704	Q12051	0	Positive Genetic
-P29704	Q05497	0	Negative Genetic
 P29704	P54839	0	Positive Genetic
 P29704	P53199	0	Negative Genetic
 P29704	P41338	0	Positive Genetic
@@ -11810,8 +11815,6 @@ P09348	P75933	0	Positive Genetic
 P09348	P33135	0	Negative Genetic
 P09348	P15070	0	Negative Genetic
 P09348	P0ABX8	0	Negative Genetic
-P09238	P24347	0	Negative Genetic
-P09237	P09238	0	Negative Genetic
 P09201	P16861	0	Positive Genetic
 P09169	P61320	0	Positive Genetic
 P09169	P0CE48	0	Positive Genetic
@@ -11984,7 +11987,6 @@ P08254	P14780	0	Negative Genetic
 P08254	P09237	0	Negative Genetic
 P08253	P50281	0	Negative Genetic
 P08253	P14780	0	Negative Genetic
-P08253	P09238	0	Negative Genetic
 P08253	P09237	0	Negative Genetic
 P08245	P60723	0	Negative Genetic
 P08245	P0A7W1	0	Positive Genetic
@@ -14155,7 +14157,6 @@ O43684	O95229	0	Negative Genetic
 O43639	P16333	0	Negative Genetic
 O43513	Q9NPJ6	0	Positive Genetic
 O43513	Q96G25	0	Positive Genetic
-O43506	Q9UKF2	0	Negative Genetic
 O43137	P23724	0	Phenotypic Enhancement
 O43137	P07286	0	Phenotypic Enhancement
 O35904	Q9JHG7	0	Phenotypic Enhancement
