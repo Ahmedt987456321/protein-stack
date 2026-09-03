@@ -184,8 +184,8 @@ def main():
         f.write("| InterPro | name | proteins | mean per-protein F1 gain (C - A) |\n|---|---|---|---|\n")
         for ipr, n, g in ranked_gain:
             f.write("| {} | {} | {} | {:+.3f} |\n".format(ipr, ipr_name(session, ipr, name_cache), n, g))
-        f.write("\n## Composition of the 246 proteins with no sequence neighbours\n\n")
-        f.write("{} of 246 have no InterPro entry at all.\n\n".format(resc_nodomain))
+        f.write("\n## Composition of the {} proteins with no sequence neighbours\n\n".format(len(rescued)))
+        f.write("{} of {} have no InterPro entry at all.\n\n".format(resc_nodomain, len(rescued)))
         f.write("| InterPro | name | proteins |\n|---|---|---|\n")
         for ipr, n in resc_counter.most_common(10):
             f.write("| {} | {} | {} |\n".format(ipr, ipr_name(session, ipr, name_cache), n))
@@ -200,8 +200,8 @@ def main():
             f.write("| {} | {} ({}) | {} | {} ({}) | {} |\n".format(
                 i + 1, ka, ipr_name(session, ka, name_cache) if ka != "-" else "-",
                 kn, da, ipr_name(session, da, name_cache) if da != "-" else "-", dn))
-    print("rescued no-domain: {}/246; dark no-domain: {}/{}".format(
-        resc_nodomain, dark_nodomain, len(dark)))
+    print("rescued no-domain: {}/{}; dark no-domain: {}/{}".format(
+        resc_nodomain, len(rescued), dark_nodomain, len(dark)))
     print("Wrote results/naive_baseline.csv, species_breakdown.md, family_analysis.md")
 
 

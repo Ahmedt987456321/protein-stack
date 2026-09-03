@@ -161,3 +161,45 @@ result, and the leakage-aware evaluation + feature-leakage measurement (the
 genuinely novel contribution) are fully robust. The paper should be reframed
 around leakage-aware evaluation, with structure-vs-domain redundancy reported as
 an honest finding rather than buried.
+
+## PAPER REFRAMED (single six-species strict-EXP dataset)
+
+Title: "Leakage-aware evaluation of protein function prediction, and the limits
+of structural transfer" (author-approved direction).
+
+The manuscript was rebuilt around one consistent dataset: six species, two
+domains of life, strict experimental evidence, 41,157 annotated proteins. This
+also dissolves the reviewer's "scale-up reuses species, not a real replication"
+objection, since there is no longer a separate scale-up claim.
+
+Changes:
+- Abstract and introduction reframed: structure beats sequence below 30% but is
+  redundant with InterPro domains; the leakage-aware evaluation is the central
+  contribution.
+- Tables 1-6 migrated to six-species strict-EXP numbers; the scale-up section and
+  its gate table (old Table 7) removed.
+- New in Table 2: the S, SD (sequence+domain), and C - SD columns, so the
+  structure-redundancy result is visible cell by cell (C - SD in [-0.008, +0.006]).
+- Figure 1 redrawn with four streams; the domain and fusion curves nearly
+  coincide, showing structure adds nothing once domains are present.
+- Temporal section (now the centrepiece) uses the well-powered cohort
+  (SS MF 0.425, n=2,087) and the paired feature-leakage measurement (+0.22 to
+  +0.47); calibration and outcome counts updated.
+- Discussion and limitations rewritten; a new limitation states the redundancy
+  result is about structural transfer (Foldseek), not learned structure models
+  (DeepFRI/PANDA-3D), which are not compared against.
+- Concordant illustrative case generalised (the prior accession was not in this
+  run's dark sample); PANK4 contradiction verified still present in kg.db.
+- Variant section keeps the CMH result (OR 2.76); percentages corrected to match.
+
+Stale analysis outputs (naive baseline, species, families, horizons) were
+regenerated against the six-species strict data (scripts 22 and 21). Two script
+bugs fixed in passing: hardcoded "246" in script 22, and script 21 crashing on
+E. coli (no archived GOA release) instead of skipping it.
+
+The four application analyses (pseudo-enzyme, variant, module, dynamics) are
+hypothesis-generation layers largely independent of the evidence-code change and
+were not re-run under strict-EXP, except the variant statistics (CMH, updated).
+
+LaTeX validated: 22/22 citations resolve, refs resolve, braces balanced, no
+em/en dashes, tables column-consistent.

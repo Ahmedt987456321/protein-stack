@@ -73,7 +73,13 @@ def run_horizon(cfg, d, dag, session, params, universe, kb, current_exp,
     past_exp = defaultdict(set)
     releases = []
     for sp in cfg["species"]:
-        url, fname, date = pick_old_release(session, sp["name"], target)
+        try:
+            url, fname, date = pick_old_release(session, sp["name"], target)
+        except RuntimeError:
+            # species without archived per-species GOA releases (e.g. E. coli)
+            # are excluded from the temporal cohort, as in step 19.
+            releases.append("{} (no archive, excluded)".format(sp["name"]))
+            continue
         releases.append("{} {} ({})".format(sp["name"], fname, date))
         gaf = download(session, url, ts / fname)
         for acc, term, _aspect in parse_gaf(gaf, cfg["evidence_codes"]):

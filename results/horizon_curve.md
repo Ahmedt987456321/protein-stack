@@ -2,12 +2,12 @@
 
 | horizon | branch | n scored | top-1 precision | perm p | cohort |
 |---|---|---|---|---|---|
-| 2019-07-01 | molecular_function | 305 | 0.351 | 0.001 | 747 |
-| 2019-07-01 | biological_process | 162 | 0.198 | 0.001 | 747 |
-| 2019-07-01 | cellular_component | 206 | 0.345 | 0.001 | 747 |
-| 2021-07-01 | molecular_function | 121 | 0.364 | 0.001 | 388 |
-| 2021-07-01 | biological_process | 108 | 0.222 | 0.001 | 388 |
-| 2021-07-01 | cellular_component | 129 | 0.372 | 0.001 | 388 |
-| 2023-07-12 | molecular_function | 86 | 0.395 | 0.001 | 281 |
-| 2023-07-12 | biological_process | 77 | 0.221 | 0.001 | 281 |
-| 2023-07-12 | cellular_component | 97 | 0.392 | 0.001 | 281 |
+| 2019-07-01 | molecular_function | 3670 | 0.434 | 0.001 | 8193 |
+| 2019-07-01 | biological_process | 2927 | 0.168 | 0.001 | 8193 |
+| 2019-07-01 | cellular_component | 3426 | 0.281 | 0.001 | 8193 |
+| 2021-07-01 | molecular_function | 2601 | 0.423 | 0.001 | 6155 |
+| 2021-07-01 | biological_process | 2425 | 0.173 | 0.001 | 6155 |
+| 2021-07-01 | cellular_component | 2577 | 0.27 | 0.001 | 6155 |
+| 2023-07-12 | molecular_function | 2238 | 0.426 | 0.001 | 5462 |
+| 2023-07-12 | biological_process | 2030 | 0.173 | 0.001 | 5462 |
+| 2023-07-12 | cellular_component | 2222 | 0.265 | 0.001 | 5462 |
